@@ -93,6 +93,7 @@ function Employees() {
 
   useEffect(() => {
     fetchEmployees();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const showNotification = (message, severity = 'success') => {

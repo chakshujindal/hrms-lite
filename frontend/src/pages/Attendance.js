@@ -23,7 +23,6 @@ import {
   InputAdornment,
   Snackbar,
   Alert,
-  IconButton,
   Tooltip,
   Avatar,
 } from '@mui/material';
@@ -120,6 +119,7 @@ function Attendance() {
     }
   };
 
+  // eslint-disable-next-line no-unused-vars
   const toggleAttendance = (employee) => {
     const currentStatus = getAttendanceStatus(employee.id);
     let newStatus;

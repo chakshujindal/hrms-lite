@@ -11,7 +11,7 @@ A full-stack HRMS application for managing employees and their attendance record
 
 ### Employee Management
 - Add new employees with unique Employee ID, Full Name, Email, and Department
-- View all employees in **Grid View** or **List View**
+- View all employees in Grid View or List View
 - Delete employees with confirmation dialog
 - Click on employee name to view detailed profile and attendance history
 
@@ -30,18 +30,10 @@ A full-stack HRMS application for managing employees and their attendance record
 
 ## Tech Stack
 
-### Backend
-- **Framework:** FastAPI (Python 3.14)
-- **Database:** SQLite (development) / PostgreSQL (production)
-- **ORM:** SQLAlchemy
-- **Validation:** Pydantic
-
-### Frontend
+- **Framework:** FastAPI (Python 3.13 onwards)
+- **Database:** SQLite (MySQL)
 - **Framework:** React 18
-- **UI Library:** Material UI (MUI) v5
-- **Date Handling:** date-fns
-- **HTTP Client:** Axios
-- **Routing:** React Router DOM
+- **Deployment:** Vercel(FE) & Render(BE)
 
 ## Project Structure
 
@@ -137,16 +129,9 @@ The app will be available at `http://localhost:3000`
 - **Proper HTTP status codes** (200, 201, 400, 404, 409, 500)
 - **Meaningful error messages** returned to client
 
-## UI/UX Features
-
-- Responsive design for all screen sizes
-- Dark theme with teal/indigo accent colors
-- Loading spinners during API calls
-- Empty state illustrations
-- Toast notifications for actions
-- Confirmation dialogs for destructive actions
-- Smooth hover animations
-
 ## Author
 
 Chakshu Jindal
+
+
+**Note:** LLMs were used to assist with planning, defining project structure, brainstorming ideas, and drafting documentation. The core development, implementation decisions, and problem-solving were driven by the developer.

@@ -4,8 +4,8 @@ A full-stack HRMS application for managing employees and their attendance record
 
 ## Live Demo
 
-- **Frontend:** [https://hrms-lite.vercel.app](https://hrms-lite.vercel.app)
-- **Backend API:** [https://hrms-lite-api.onrender.com](https://hrms-lite-api.onrender.com)
+- **Frontend:** [https://hrms-lite-chj.vercel.app](https://hrms-lite-chj.vercel.app)
+- **Backend API:** [https://hrms-lite-chj-api.onrender.com](https://hrms-lite-chj-api.onrender.com)
 
 ## Features
 
